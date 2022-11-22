@@ -23,7 +23,7 @@ c. Predictive Models:
    sklearn:ensemble, model_selection.train_test_split, linear_model, ExtraTreeRegressor, DecisionTreeRegressor, LinearRegression, svm
    
 # Dataset: 
-a. There are total of 24 folders and 24*60 files. The 24 folders contains all the taxi data in that specific hour, and the each file in that folder contains all the taxi data in that specific minute(hour:min). Each file contains all the operating information of every Taxi in Shanghai Area at that specific time(hour:min:sec), 
+a. There are total of 24 folders and 24*60 files. The 24 folders contains all the taxi data in that specific hour, and the each file in that folder contains all the taxi data in that specific minute(hour:min). Each file contains all the operating information of every Taxi in Shanghai Area at that specific time(hour:min:sec), https://drive.google.com/drive/folders/17x5uGTxQML7uLvHZ3RY1jyFtJwUDCaw2?usp=share_link
 
-b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018.
+b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018. https://drive.google.com/file/d/1VrReaxc-uQAJkly8ASqMkkxnDNPvaC54/view?usp=share_link
 # File Overview: 
