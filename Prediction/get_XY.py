@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def get_XY(df3, carNumTable1, dic, waitave):
     """
     this function is to get our features X and our labels y
