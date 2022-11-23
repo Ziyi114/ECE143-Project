@@ -40,6 +40,7 @@ We extracted Taxi ID, loaded or empty status, Longitute, latitute for our projec
 
 b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018. https://drive.google.com/file/d/1VrReaxc-uQAJkly8ASqMkkxnDNPvaC54/view?usp=share_link
 
+The flight data are extracted from webpage:https://www.flightera.net/en/airport/Shanghai/ZSPD/departure/2018-04-01%20%2008_00
 Example Row:
 
 DATE, STATUS /FLIGHT/ FROM/ SCHEDULED ARRIVAL/ DEPARTED/ ARRIVED/ DURATION				
