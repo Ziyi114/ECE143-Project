@@ -42,7 +42,8 @@ b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2
 
 Example Row:
 
-DATE, STATUS /FLIGHT/ FROM/ SCHEDULED ARRIVAL/ DEPARTED/ ARRIVED/ DURATION																			
+DATE, STATUS /FLIGHT/ FROM/ SCHEDULED ARRIVAL/ DEPARTED/ ARRIVED/ DURATION				
+
 Sat, 31. Mar 2018/RU619 ABW619 /Russia Moscow (SVO / UUEE)/00:00 CST/10:27 MSK/22:59 CST/7h 32m																		
 
 
