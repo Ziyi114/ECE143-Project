@@ -31,7 +31,7 @@ Example data:
 Filename 1804010501.txt means the all the taxi data in 05:01 in 2018 April 1st.
 Each row in the txt file looks like the following:
 25844|A|0|0|0|0|0|0|2018-04-01 05:00:00|2018-04-01 05:00:02|121.454252|31.317820|0.0|153.0|7|000
-Taxi ID|\|\|loaded or empty|\|\|\|\|\|\|Longitute|latitute|\|\|\|\
+Taxi ID|\\|\\|loaded or empty|\\|\\|\\|\\|\\|\\|Longitute|latitute|\\|\\|\\|\\
 ('\' means not useful for this project)
 
 b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018. https://drive.google.com/file/d/1VrReaxc-uQAJkly8ASqMkkxnDNPvaC54/view?usp=share_link
