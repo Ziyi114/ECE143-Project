@@ -27,3 +27,12 @@ a. There are total of 24 folders and 24*60 files. The 24 folders contains all th
 
 b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018. https://drive.google.com/file/d/1VrReaxc-uQAJkly8ASqMkkxnDNPvaC54/view?usp=share_link
 # File Overview: 
+
+The folder Prediction contains all coding for data process and our first task of building an predictive model.
+
+The another folder Estimation contains all files we used to establish our mathmatical recommender model for taxi drivers.
+
+All the graphs can be founded both in slides and our ipynb file.
+
+# References:
+1. Jason Brownlee. How to Configure k-Fold Cross-Validation. https://machinelearningmastery.com/how-to-configure-k-fold-cross-validation/
