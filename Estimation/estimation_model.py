@@ -36,6 +36,7 @@ def plot_EstimateOnApr1st(T_r, ave_rev, running_portions, waitave_process):
     plt.figure(figsize=(20, 10))
     plt.plot(x, P_d, 'r')
     plt.plot(x, P_w, 'g')
+    plt.legend(['Estimated departure profit', 'Estimated wait profit'])
 
 
 def get_EstimateOnTestSet(model,X_process, y_process, ave_rev, running_portions, T_r):
@@ -76,6 +77,7 @@ def get_EstimateOnTestSet(model,X_process, y_process, ave_rev, running_portions,
     ax.plot(x1, y1, 'r')
     ax.plot(x2, y2, 'b')
     ax.plot(x3, y3, 'g')
+    ax.legend(['Profit based on predicted Y', 'Profit based on real Y', 'Estimated wait profit'])
     print(len(y2), len(y3))
-    ax.fill_between(x1, 0, 50, where=np.array(y3) > np.array(y2), color='orange', alpha=0.2, interpolate=True)
+    ax.fill_between(x1, 0, 50, where=np.array(y3) > np.array(y1), color='orange', alpha=0.2, interpolate=True)
     plt.show()
