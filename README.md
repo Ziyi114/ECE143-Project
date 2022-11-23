@@ -7,7 +7,8 @@ Firstly, we build a prediction model that will predict taxi wait time. We proces
 
 Secondly, we build a mathematical estimation model for taxi drivers based our predictive model and help them decide whether they should leave or wait.
 
-# Modules used: All the modules we used for our specific project.
+# Modules used: 
+All the modules we used for our specific project:
 a. Data Processing&Visualization:
    Pandas,
    numpy,
