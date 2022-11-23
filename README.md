@@ -25,16 +25,25 @@ c. Predictive Models:
    sklearn:ensemble, model_selection.train_test_split, linear_model, ExtraTreeRegressor, DecisionTreeRegressor, LinearRegression, svm
    
 # Dataset: 
-a. There are total of 24 folders and 24*60 files. The 24 folders contains all the taxi data in that specific hour, and the each file in that folder contains all the taxi data in that specific minute(hour:min). Each file contains all the operating information of every Taxi in Shanghai Area at that specific time(hour:min:sec), https://drive.google.com/drive/folders/17x5uGTxQML7uLvHZ3RY1jyFtJwUDCaw2?usp=share_link
+a. This is the dataset that contains all the taxi data in Shanghai on April 1st. There are total of 24 folders and 24*60 files. The 24 folders contains all the taxi data in that specific hour, and the each file in that folder contains all the taxi data in that specific minute(hour:min). Each file contains all the operating information of every Taxi in Shanghai Area at that specific time(hour:min:sec), https://drive.google.com/drive/folders/17x5uGTxQML7uLvHZ3RY1jyFtJwUDCaw2?usp=share_link
 
 Example data:
 Filename 1804010501.txt means the all the taxi data in 05:01 in 2018 April 1st.
 Each row in the txt file looks like the following:
+
 25844|A|0|0|0|0|0|0|2018-04-01 05:00:00|2018-04-01 05:00:02|121.454252|31.317820|0.0|153.0|7|000
+
 Taxi ID|\\|\\|loaded or empty|\\|\\|\\|\\|\\|\\|Longitute|latitute|\\|\\|\\|\\
-('\' means not useful for this project)
+
+We extracted Taxi ID, loaded or empty status, Longitute, latitute for our project
+'\\' means not useful for this project
 
 b. Flight.csv, which contains the schedules of all arrival planes on April 1st 2018. https://drive.google.com/file/d/1VrReaxc-uQAJkly8ASqMkkxnDNPvaC54/view?usp=share_link
+
+Example Row:
+
+Sat, 31. Mar 2018	RU619 ABW619	Flag for Russia Moscow (SVO / UUEE)	00:00 CST	10:27 MSK	22:59 CST	7h 32m																		
+
 
 # File Overview: 
 
